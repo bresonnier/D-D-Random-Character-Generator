@@ -20,12 +20,13 @@ h3 {
 }
 
 button {
-	height: 50px;
-	width: 90px;
+	height: 5vw;
+	width: 9vw;
 	align-self: center;
 	border-radius: 10px;
 	border: none;
 	font-size: 15px;
+	font-size: 1vw;
 	display: inline-block;
 	word-wrap: break-word;
 	background: #718EA4;
