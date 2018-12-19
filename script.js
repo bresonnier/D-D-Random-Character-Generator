@@ -1,3 +1,4 @@
+document.querySelector(".btn").addEventListener("click", function character() {
 //classes and races: only included basic classes/races
 let dndClassName = ['Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk', 'Paladin', 'Ranger', 'Rogue', 'Sorcerer', 'Warlock', 'Wizard', 'Blood Hunter'];
 let dndRaceName = ['Dragonborn', 'Dwarf', 'Elf', 'Gnome', 'Half-Elf', 'Halfling', 'Half-Orc', 'Human', 'Tiefling'];
@@ -57,7 +58,6 @@ function note() {
 }
 
 //activates button
-document.querySelector(".btn").addEventListener("click", function character() {
 	document.querySelector(".clssName").innerHTML= "<p>Class:</p>" + dndClass;
 	document.querySelector(".race").innerHTML = "<p>Race:</p>" + dndRace;
 	document.querySelector(".strength").innerHTML = "<p>Strength:</p>" + strength;
