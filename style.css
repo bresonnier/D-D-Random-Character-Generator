@@ -28,7 +28,6 @@ button {
 	font-size: 15px;
 	font-size: 1vw;
 	display: inline-block;
-	word-wrap: break-word;
 	background: #718EA4;
 	color: #042037;
 }
