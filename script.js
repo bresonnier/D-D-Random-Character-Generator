@@ -1,5 +1,6 @@
-document.querySelector(".btn").addEventListener("click", function character() {
+document.querySelector("#btn").addEventListener("click", function character() {
 //classes and races: only included basic classes/races
+
 let dndClassName = ['Barbarian', 'Bard', 'Cleric', 'Druid', 'Fighter', 'Monk', 'Paladin', 'Ranger', 'Rogue', 'Sorcerer', 'Warlock', 'Wizard', 'Blood Hunter'];
 let dndRaceName = ['Dragonborn', 'Dwarf', 'Elf', 'Gnome', 'Half-Elf', 'Halfling', 'Half-Orc', 'Human', 'Tiefling'];
 
@@ -58,14 +59,20 @@ function note() {
 }
 
 //activates button
-	document.querySelector(".clssName").innerHTML= "<p>Class:</p>" + dndClass;
-	document.querySelector(".race").innerHTML = "<p>Race:</p>" + dndRace;
-	document.querySelector(".strength").innerHTML = "<p>Strength:</p>" + strength;
-	document.querySelector(".dexterity").innerHTML = "<p>Dexterity:</p>" + dexterity;
-	document.querySelector(".constitution").innerHTML = "<p>Constitution:</p>" + constitution;
-	document.querySelector(".intelligence").innerHTML = "<p>Intelligence:</p>" + intelligence;
-	document.querySelector(".wisd").innerHTML = "<p>Widsom:</p>" + wisdom;
-	document.querySelector(".charisma").innerHTML = "<p>Charisma:</p>" + charisma;
+	document.querySelector("#race").innerHTML = "Race: " + dndRace;
+
+	document.querySelector("#clssName").innerHTML= "Class: " + dndClass;
+	
+	document.querySelector("#strength").innerHTML = "Strength: " + strength;
+	
+	document.querySelector("#dexterity").innerHTML = "Dexterity: " + dexterity;
+	
+	document.querySelector("#constitution").innerHTML = "Constitution: " + constitution;
+	
+	document.querySelector("#intelligence").innerHTML = "Intelligence: " + intelligence;
+	
+	document.querySelector("#wisd").innerHTML = "Widsom: " + wisdom;
+	
+	document.querySelector("#charisma").innerHTML = "Charisma: " + charisma;
 	note();
 	})
-
