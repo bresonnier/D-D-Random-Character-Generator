@@ -48,8 +48,8 @@ button:active {
 	outline-style: none;
 }
 
-@media (max-width: 500px) { 
-	button {font-size: 1.5rem}
+@include media-breakpoint(sm) { 
+	.btn {font-size: 1.5rem}
 }
 
 h2 {
@@ -72,7 +72,10 @@ li {
 	font-weight: 800;
 }
 
-@media (max-width: 60rem) { 
-	.list-group { width: 50vh; height: 80vh;}
+@include media-breakpoint(sm) { 
+	.list-group { 
+		width: 50vh; 
+		height: 80vh;
+	}
 	li {font-size: 3.5rem}
 }
