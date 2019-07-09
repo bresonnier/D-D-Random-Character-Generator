@@ -37,6 +37,7 @@ h3 {
 
 .btn {
 	font-family: inherit;
+	font-size: 2rem;
 }
 button:hover {
 	opacity: 0.8;
@@ -48,9 +49,7 @@ button:active {
 	outline-style: none;
 }
 
-@media (max-width: 600px) { 
-	.btn {font-size: 1.5rem}
-}
+
 
 h2 {
 	color:  #fff;
@@ -72,6 +71,8 @@ li {
 	font-weight: 800;
 }
 
-@media (max-width: 600px) { 
-	li {font-size: 3.5rem}
+@media (max-width: 575.98px) { 
+	li {
+		font-size: 4rem;
+	}
 }
