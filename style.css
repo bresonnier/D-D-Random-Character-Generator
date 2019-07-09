@@ -22,6 +22,8 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 .list-group {
 	width: 30vw;
 	height: 50vh;
+	flex-direction: column;
+	align-items: stretch;
 }
 
 h1 {
@@ -36,7 +38,7 @@ h3 {
 
 
 .btn {
-	font-family: inherit;
+	font-family: 'Thasadith', sans-serif;
 	font-size: 1.5rem;
 }
 button:hover {
@@ -60,10 +62,7 @@ p {
 	font-size: 2rem;
 }
 
-.list-group{
-	flex-direction: column;
-	align-items: stretch;
-}
+
 
 li {
 	list-style: none;
